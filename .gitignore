@@ -1,0 +1,36 @@
+# ===== FRONTEND =====
+frontend/node_modules/
+frontend/dist/
+frontend/build/
+
+# ===== BACKEND =====
+backend/target/
+*.log
+.metadata/
+
+# ===== ENV =====
+.env
+
+# ===== IDE =====
+.vscode/
+.idea/
+
+# ===== OS =====
+.DS_Store
+Thumbs.db
+
+# IDE
+.metadata/
+.vscode/
+.idea/
+
+# Backend
+target/
+
+# Frontend
+node_modules/
+dist/
+
+# Secrets
+.env
+application.properties

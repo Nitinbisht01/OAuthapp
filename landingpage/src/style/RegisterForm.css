@@ -1,0 +1,28 @@
+/* Full-height background for centering */
+
+
+.register-page {
+  min-height: 100vh;
+  display: flex;
+  background: #f5f5f5;
+}
+
+/* Card styling for standard signup look */
+.register-card {
+  
+  border-radius: 0.75rem;
+  border: 1px solid rgba(0, 0, 0, 0.05);
+}
+
+/* Make inputs and card feel consistent on all screens */
+.register-card .form-control {
+  border-radius: 0.5rem;
+}
+
+/* Small tweaks per breakpoint if needed */
+@media (max-width: 575.98px) {
+  .register-card {
+    box-shadow: none;
+    border-radius: 0.5rem;
+  }
+}
